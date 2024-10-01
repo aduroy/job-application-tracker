@@ -8,15 +8,15 @@ This project provides a Web interface for keeping track of job applications, pro
 
 ## Job application overview
 
-![n-gram representation](https://github.com/aduroy/NGramGenerator/blob/master/data/ngram_prob.png)
+![Job Application Overview](https://github.com/aduroy/job-application-tracker/blob/main/screenshots/job_applications_overview.png)
 
 ## Prospects
 
-![n-gram representation](https://github.com/aduroy/NGramGenerator/blob/master/data/ngram_prob.png)
+![Prospects](https://github.com/aduroy/job-application-tracker/blob/main/screenshots/prospects_overview.png)
 
 ## Insights
 
-![n-gram representation](https://github.com/aduroy/NGramGenerator/blob/master/data/ngram_prob.png)
+![Insights](https://github.com/aduroy/job-application-tracker/blob/main/screenshots/insights_overview.png)
 
 # How to
 
