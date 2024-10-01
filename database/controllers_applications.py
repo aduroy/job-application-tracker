@@ -42,9 +42,6 @@ class ApplicationHelper:
 
     @staticmethod
     def create(**kwargs):
-        # TODO: Faire les checks ici
-        # ---
-
         a = Application(
             created_at_utc=datetime.datetime.utcnow(),
             **kwargs
@@ -238,15 +235,12 @@ class ApplicationStepHelper:
 class ContactHelper:
     @staticmethod
     def create(application_id, **kwargs):
-        # TODO: Faire les checks ici
-        # ---
-
-        a1 = Contact(
+        a = Contact(
             application_id=application_id,
             **kwargs
         )
 
-        session.add(a1)
+        session.add(a)
         session.commit()
 
     @staticmethod
