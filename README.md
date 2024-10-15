@@ -10,6 +10,10 @@ This project provides a Web interface for keeping track of job applications, pro
 
 ![Job Application Overview](https://github.com/aduroy/job-application-tracker/blob/main/screenshots/job_applications_overview.png)
 
+## Job application details
+
+![Job Application Details](https://github.com/aduroy/job-application-tracker/blob/main/screenshots/job_applications_details.png)
+
 ## Prospects
 
 ![Prospects](https://github.com/aduroy/job-application-tracker/blob/main/screenshots/prospects_overview.png)
@@ -32,24 +36,30 @@ Python 3.10.x
 ### Install dependencies
 
 ```commandline
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
-### Environment variables
+### Set Environment variables
 
 ```commandline
 REACT_VERSION=18.2.0
 ```
 
+### Initialize database
+
+```commandline
+$ python database/init_database.py
+```
+
 ### Run
 
 ```commandline
-python app.py
+$ python app.py
 ```
 
 ### Generate fake data
 
 ```commandline
-python database/controllers_applications.py
+$ python database/controllers_applications.py
 ```
 
